@@ -1,0 +1,91 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: oklab(84.45899999999999% 0.06036 0.02009);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  max-width: 96vw;
+  margin-top: 20px;
+  background-image: url(images-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;  
+}
+
+.heading { 
+  margin-top: 20px;
+  padding-bottom: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(221, 212, 212);  
+}
+
+h1 {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.menu {
+  font-size: 19px;  
+}
+
+.content-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.content {
+  margin-top: 20px;
+  margin-left: 40px;
+  vertical-align: baseline;
+}
+
+.content-2 {
+  margin-left: 250px; 
+}
+
+.pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.bar, .pool, .game {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.f1 {
+  color: darkred;
+}
+
+.f2 {
+  color: blue;
+}
+
+.f3 {
+  color: purple;
+}
+
+label {
+  font-weight: 500;
+}
+
+p {
+  font-weight: bold;
+}
+
+select {
+  border-radius: 3px;
+}
